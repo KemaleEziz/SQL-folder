@@ -1,0 +1,28 @@
+ select*from students;--> butun cedvelin datalarinin gorunmesi;
+
+select*from students where email = 'eli.veliyevgmail.com';-->obyektde maili search;
+
+select*from students where surname = 'Qurbanov';-->obyektde surname search;
+
+ select* from students order by name desc;-->cedvelde adlar siraya duzulub reverse olunsun;
+
+select*from students order by surname;--> soyadlar elifba sirasi ile dwzwlswn;
+
+ select *from students order by phone;--> telnomreler ardicilliqla kichikden boyuye doqru duzulsun;
+
+select*from students where name= 'Eli';-->obyektde Eli adinin tapilmasi;
+
+ select*from students where name like '%i%';-->obyektlerin adlarindan hansindasa i herfi varsa onu output etsin;
+
+select*from students where not name= 'eli';-->adi eli olanlardan bashqa haminin siyahisi;
+
+  select name from students where not name ='cavad';-->student adli cedveldeki adlar sutununda cavad adindan bashqa butun adlarin siyahisinin qaytarilmasi;
+
+select surname from students where surname='cavadli';-->student adli cedveldeki surname-lerden sutunundan ancaq cavad surnameni qaytarsin;
+
+ select*from students where surname like '%ov';--> cedveldeki butun surnamelerden sonu ov-la bitenleri qaytar;
+
+select*from students where surname like '%o_';--> cedveldeki butun surnamelerin sondan 2ci herifi o olanlarini qaytar;
+
+select*from students where surname like '%b____';sondan 4 cu herfi b olan surnameleri qaytar;
+
